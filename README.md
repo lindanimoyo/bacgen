@@ -44,7 +44,7 @@ BLASTp results were filtered to include only hits that met the criteria of e-val
 9.__Shared protein searches using uCLUST:__
 The UCLUST program was used to identify shared proteins between plasmids. Sequences were sorted by length and clustered with parameters that ensured a minimum sequence length similarity of 0.9, query and target coverages of 0.9, and length differences within the range of 0.9 < query/subject < 1.1.
 
-10. __Network analysis input:__
+10.__Network analysis input:__
 The input for network analysis consisted of the filtered BLASTp results and UCLUST results. These inputs provided the basis for constructing a graph where nodes represented plasmids and edges represented shared genes, with edge weights corresponding to the number of shared genes.
 
 11.__Network construction and analysis:__
