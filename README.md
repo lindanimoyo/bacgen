@@ -1,4 +1,5 @@
 # bacgen
-BacGen: A Pipeline for Bacterial Genome Analysis and Interpretation
+BacGen:  Advanced Pipeline for Antimicrobial Resistance Gene Detection and Network Analysis in Bacterial Genomes
 
-![Workflow](https://github.com/omicscodeathon/bacgen/assets/120181260/244814b8-7004-4bde-9898-a855901a8381)
+![methodology_flowchart_bright](https://github.com/user-attachments/assets/028c61ee-3e79-468a-8c5b-8c8a5ce415af)
+
