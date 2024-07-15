@@ -6,7 +6,7 @@
 - [Methods](##Methods)
 
 ## Introduction
-Bacgen is an advanced pipeline designed for antimicrobial resistance profiling and network analysis in bacterial genomes. The pipeline integrates bioinformatics tools to automate quality control, genome assembly, AMR gene detection via MEGAres, plasmid detection via PlasmidFinder, and virulence gene identification using VFDB. We then perform Orthologous gene identification between plasmids  BLASTp searches and UCLUST, followed by network construction using the R igraph library. Community detection algorithms are applied to elucidate functional relationships within detected gene clusters.
+Bacgen is an advanced pipeline designed for antimicrobial resistance profiling and network analysis in bacterial genomes. The pipeline integrates bioinformatics tools to automate quality control, genome assembly, AMR gene detection via MEGAres, plasmid detection via PlasmidFinder, and virulence gene identification using VFDB. We then perform Orthologous gene identification between plasmids  BLASTp searches and UCLUST, followed by network construction using the R igraph library.We applied community detection algorithms to elucidate functional relationships within detected gene clusters.
 Bacgen offers a reproducible framework for researchers and clinicians to analyze bacterial whole genome data. This pipeline hopes to advance our understanding of bacterial resistance profiles and microbial pathogenesis.
 
 ## Objectives
