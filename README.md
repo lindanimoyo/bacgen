@@ -17,7 +17,7 @@ Bacgen offers a reproducible framework for researchers and clinicians to analyze
 ![methodology_flowchart_bright](https://github.com/user-attachments/assets/028c61ee-3e79-468a-8c5b-8c8a5ce415af)
 
 ## Methods
-1. #Quality Control and Genome Assembly
+1. ##Quality Control and Genome Assembly
 Raw Sequence Quality Control:
 The quality of raw sequencing reads was assessed using FastQC to ensure high-quality data for downstream analyses. Raw reads in FASTQ format were processed, and quality reports were generated.
 
@@ -27,7 +27,7 @@ Reads were trimmed and filtered using Trimmomatic to remove low-quality bases an
 Genome Assembly:
 High-quality reads were assembled into contigs using Unicycler. The assembly process produced contigs that were used in subsequent analyses.
 
-2. #AMR, Plasmid, and Virulence Gene Detection
+2. ##AMR, Plasmid, and Virulence Gene Detection
 AMR Gene Detection:
 Antimicrobial resistance (AMR) genes were identified using Abricate with MEGAres database. Abricate scans genomic assemblies for known resistance genes and generates a comprehensive report detailing the detected AMR genes.
 
