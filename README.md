@@ -4,6 +4,7 @@
 - [Objectives](#Objectives)
 - [Workflow](#Workflow)
 - [Methods](#Methods)
+- [Team members] (#Team)
 
 ## Introduction
 Bacgen is an advanced pipeline designed for antimicrobial resistance profiling and network analysis in bacterial genomes. The pipeline integrates bioinformatics tools to automate quality control, genome assembly, AMR gene detection via MEGAres, plasmid detection via PlasmidFinder, and virulence gene identification using VFDB. It then performs Orthologous gene identification between plasmids  BLASTp searches and UCLUST, followed by network construction using the R igraph library.It then uses community detection algorithms to elucidate functional relationships within detected gene clusters.
@@ -53,3 +54,19 @@ Network analyses were performed using the R igraph library (v1.2.6). Filtered BL
 12.__Validation:__
 To ensure the accuracy and reliability of the pipeline, multiple validation steps were incorporated. The quality of the genome assemblies was assessed using QUAST, evaluating N50, L50, total length, and GC content. AMR gene detection was cross-validated with a ResFinder web service,. Similarly, plasmid and virulence gene detections were cross-validated with other databases or tools, like PlasmidFinder and VFDB web services. Orthologous gene identification was validated by manually inspecting a subset of gene pairs to confirm accuracy.The accuracy of the network analysis was ensured by comparing the constructed network to known plasmid interaction networks and validating the community detection results with known plasmid relationships.
 
+## Team members
+Names and affiliations
+1. Martin Njau Kamau-Meru - University of Science and Technology, Kenya
+2. Senbadejo Tosin - University of Ghana
+3. Mohamed S. AboHoussien - School of Medicine, Galala University
+4. John Njogu - Karatina University
+5. SHAFQAT HUSSAIN - Cuvas bahawalpur
+6. ⁠Sabreen A. Abo Al-Hassan - Badr un Assuir University
+7. Aza-Gnandji Marilyne - Institut de recherche en santé de surveillance épidémiologique et de formation (IRESSEF)  
+8. Adejumobi A. Olawale - Redeemer’s University
+9. ⁠Davis Kuchaka - Kilimanjaro Clinical Research Institute, Kilimanjaro, Tanzania. The Nelson Mandela African Institution of Science and Technology, Arusha, Tanzania
+10. Lindani Moyo - National University of Science and Technology, Zimbabwe
+11. Abdulkadir I. Abdulkadir - Bayero University Kano, Nigeria
+12. Mamadou D. COULIBALY  -   University Clinical Research Center - Mali
+13. Kadmiel Adjetey - University of Cape Coast, Ghana
+14. ⁠Reem M. SALLAM - Galala University and AinShams University, Egypt
