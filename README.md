@@ -54,7 +54,7 @@ Network analyses were performed using the R igraph library (v1.2.6). Filtered BL
 12.__Validation:__
 To ensure the accuracy and reliability of the pipeline, multiple validation steps were incorporated. The quality of the genome assemblies was assessed using QUAST, evaluating N50, L50, total length, and GC content. AMR gene detection was cross-validated with a ResFinder web service,. Similarly, plasmid and virulence gene detections were cross-validated with other databases or tools, like PlasmidFinder and VFDB web services. Orthologous gene identification was validated by manually inspecting a subset of gene pairs to confirm accuracy.The accuracy of the network analysis was ensured by comparing the constructed network to known plasmid interaction networks and validating the community detection results with known plasmid relationships.
 
-## Team members
+## Team_members
 Names and affiliations
 1. Martin Njau Kamau-Meru - University of Science and Technology, Kenya
 2. Senbadejo Tosin - University of Ghana
