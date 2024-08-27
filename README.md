@@ -36,22 +36,10 @@ Plasmids within the assembled genomes were detected using the PlasmidFinder data
 6.__Virulence gene detection__:
 Virulence genes were identified using the VFDB database in Abricate. This step involved scanning the genomic assemblies for known virulence factors and generating a report of the detected virulence genes.
 
-7.__BLASTp searches:__
-To identify orthologous genes between plasmids, BLASTp searches were performed with specific parameters to ensure high-confidence hits. Hits with e-values less than 1E-10, cover ratios more than 90%, and length differences within the range of 0.9 < query/subject < 1.1 were retained for further analysis.
+7.__Network analysis__:
 
-8.__Filtering BLASTp Results:__
-BLASTp results were filtered to include only hits that met the criteria of e-values less than 1E-10, cover ratios more than 90%, and length differences within the range of 0.9 < query/subject < 1.1. This filtering ensured that only high-confidence orthologous genes were considered.
 
-9.__Shared protein searches using uCLUST:__
-The UCLUST program was used to identify shared proteins between plasmids. Sequences were sorted by length and clustered with parameters that ensured a minimum sequence length similarity of 0.9, query and target coverages of 0.9, and length differences within the range of 0.9 < query/subject < 1.1.
-
-10.__Network analysis input:__
-The input for network analysis consisted of the filtered BLASTp results and UCLUST results. These inputs provided the basis for constructing a graph where nodes represented plasmids and edges represented shared genes, with edge weights corresponding to the number of shared genes.
-
-11.__Network construction and analysis:__
-Network analyses were performed using the R igraph library (v1.2.6). Filtered BLASTp results were used to construct a graph. The weight of each edge was defined by the number of shared genes. Community detection was performed using multiple algorithms, including edge.betweenness.community, multilevel.community, label.propagation.community, infomap.community, walktrap.community, and fastgreedy.community. The detected communities were saved to CSV files for further analysis.
-
-12.__Validation:__
+8.__Validation:__
 To ensure the accuracy and reliability of the pipeline, multiple validation steps were incorporated. The quality of the genome assemblies was assessed using QUAST, evaluating N50, L50, total length, and GC content. AMR gene detection was cross-validated with a ResFinder web service,. Similarly, plasmid and virulence gene detections were cross-validated with other databases or tools, like PlasmidFinder and VFDB web services. Orthologous gene identification was validated by manually inspecting a subset of gene pairs to confirm accuracy.The accuracy of the network analysis was ensured by comparing the constructed network to known plasmid interaction networks and validating the community detection results with known plasmid relationships.
 
 ## Team_members
