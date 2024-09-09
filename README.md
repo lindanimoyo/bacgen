@@ -52,7 +52,7 @@ Names and affiliations
 6. ⁠Sabreen A. Abo Al-Hassan - Badr un Assuir University
 7. Aza-Gnandji Marilyne - Institut de recherche en santé de surveillance épidémiologique et de formation (IRESSEF)  
 8. Adejumobi A. Olawale - Redeemer’s University
-9. ⁠Davis Kuchaka - Kilimanjaro Clinical Research Institute, Kilimanjaro, Tanzania. The Nelson Mandela African Institution of Science and Technology, Arusha, Tanzania
+9. ⁠Davis Kuchaka - Kilimanjaro Clinical Research Institute, Kilimanjaro, Tanzania.
 10. Lindani Moyo - National University of Science and Technology, Zimbabwe
 11. Abdulkadir I. Abdulkadir - Bayero University Kano, Nigeria
 12. Mamadou D. COULIBALY  -   University Clinical Research Center - Mali
