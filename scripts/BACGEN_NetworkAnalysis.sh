@@ -24,7 +24,7 @@ echo -e wget -O $DATADIR/sequences.fasta "http://example.com/sequences.fasta"
 #Download the nr database from ncbi
 echo -e wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz | tar -zxvf nr.gz
 
-#Index the database:am not sure it is necessary
+#Index the database:am not sure it is necessary ##Yes it's make the search faster against the protein db 
 #echo -e makeblastdb -in nr -dbtype prot
 
 # Step 2: Perform Sequence Alignment using BLAST
