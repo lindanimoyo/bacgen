@@ -42,6 +42,8 @@ Virulence genes were identified using the VFDB database in Abricate. This step i
 8.__Validation:__
 To ensure the accuracy and reliability of the pipeline, multiple validation steps were incorporated. The quality of the genome assemblies was assessed using QUAST, evaluating N50, L50, total length, and GC content. AMR gene detection was cross-validated with a ResFinder web service,. Similarly, plasmid and virulence gene detections were cross-validated with other databases or tools, like PlasmidFinder and VFDB web services. Orthologous gene identification was validated by manually inspecting a subset of gene pairs to confirm accuracy.The accuracy of the network analysis was ensured by comparing the constructed network to known plasmid interaction networks and validating the community detection results with known plasmid relationships.
 
+## Results
+
 ## Team_members
 Names and affiliations
 1. Martin Njau Kamau-Meru - University of Science and Technology, Kenya
