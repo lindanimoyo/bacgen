@@ -15,7 +15,7 @@ Bacgen offers a reproducible framework for researchers and clinicians to analyze
 2. __Validation__: Validate Bacgen across diverse bacterial genomes.
 
 ## Workflow
-![methodology_flowchart_bright](https://github.com/user-attachments/assets/028c61ee-3e79-468a-8c5b-8c8a5ce415af)
+![image](https://github.com/user-attachments/assets/e3b3e4f3-d620-4be7-b2a8-2c717313db05)
 
 ## Methods
 1.__Raw sequence quality control__:
