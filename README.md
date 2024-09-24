@@ -65,7 +65,7 @@ To investigate plasmids, we employed the abricate tool, which screened the genom
 Network analysis
 
 
-
+## put the photo here 
 
 This image represents a gene co-occurrence network, which is a visual representation of the relationships between different genes based on their co-expression patterns. The network consists of nodes (represented by the blue circles) that correspond to individual genes, and the connections between them (represented by the lines) indicate the strength of the co-occurrence relationship between the genes.
 
