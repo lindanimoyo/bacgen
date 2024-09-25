@@ -71,11 +71,11 @@ Network analysis
 This image represents a gene co-occurrence network, which is a visual representation of the relationships between different genes based on their co-expression patterns. The network consists of nodes (represented by the blue circles) that correspond to individual genes, and the connections between them (represented by the lines) indicate the strength of the co-occurrence relationship between the genes.
 
 Clustering of genes
-For example, the genes ESR1, FOXP2, and NOVA appear to form a distinct cluster or module in the network, indicating they are likely co-expressed or involved in related biological processes.
+
 Hub genes:
-The gene ACTN seems to be a major hub in the network, with a large number of connections to many other genes. This suggests ACTN may be a key regulator or coordinator of gene expression in this system.
+
 Modularity:
-The network exhibits a clear modular structure, with groups of genes like BCR, MDT1, and IDT3 forming tight-knit clusters that are more densely connected internally than to other parts of the network. This modular organization likely reflects distinct functional modules or pathways within the overall gene regulatory system.
+
 
 
 
